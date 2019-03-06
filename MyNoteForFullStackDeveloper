@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  <title>
+    Nael Notes
+  </title>
+	<style>
+	div{border: 1px solid blue}
+	</style>
+  <meta charset="UTF-8">
+	</head>
+	<body>
+    <h1>My HTML Notes</h1>
+    working load for this HTML file was around 8 hours.
+    <ol>
+		<li><h3> Commands</h3>
+      <ol>
+        <li>
+          How to inspect the webpage. <b> Ctrl + shift + i</b>
+          <mark><sub>(<em> for chrome</em>)</sub></mark> you can check the
+           <a href="https://classroom.udacity.com/nanodegrees/nd004-1mac-v2/parts/bd22ae71-aa21-4657-b7f9-91c3750f176c/modules/d8d93b82-c7ea-4f8f-a90c-77a6551f8ac7/lessons/de035acf-0d68-481d-a8ea-da2bba15154c/concepts/e9239c61-66f1-48dc-9028-58db13311a91"
+          target="_blank">link </a> for other.
+        <li>
+	         To refresh the browser  Crtl+ R
+      </ol>
+		<li><h3> What is the HTML</h3>
+			<div><!--The div can  contain paragraph but not the opposit because the last is text container-->
+			<p>
+				<strong>TEXT</strong> where the user actually read in their browser.<br>
+				<strong>MarkUP</strong> MarkUP tells the browser what the text should look
+				like.<br>
+				And this can done by opening tag <b> <em>&#60;tagname	&#62;</em>
+				</b>and closing tag <b><em>&#60; /tagname	&#62;</em> </b>
+				and the taged <b>elments</b> in between. <br>
+				<strong>Refernce</strong> to include other documents and files, like images
+				and videos.<br>
+			</p>
+			</div>
+		<li><h3> Concepts</h3>
+				<ul>
+				<li><strong>White space</strong> are spaces, tabs and line breaker.<br/>
+				<li><strong> Void Elments or empty elments</strong> Where these kind of tags
+				do not have closing tag for examlpe <b><em>&#60;br	&#62;</em></b> in practice
+				no need for closing tage because there no context.<br>
+				<li><strong> div element </strong> is short for <strong>division</strong>,
+				because that's what  this element is for—you can use it to divide up the page
+				into different sections.It has an invisible box around it—and just like
+				<strong><em> p </em></strong>, it
+				can have a border, a margin, a width, a height, and so on.<br>
+				The main differnce between <b><em>p</em></b> and <b><em> div</em></b> is that
+				first is text container while the second is more generic container for whatever
+				other elements you might want to put inside.
+				<li><b> Fully Qualified URL</b> it should contains:
+					<ol>
+					<li> <b>http, https, File</b> to tell the browser which protcol
+						should be followed.
+					<li> <b>" :// "</b> to sperat the protocol from the rest of <b>URL</b>
+					<li> Domain name. (note that there no domain name after the file.)
+					<li><b> " / "</b> which tells where is the file located (file path).<br>
+						<img src="https://cdn-images-1.medium.com/max/1500/1*mPoNQ5LUkuOTog1dUb1EFw.png"
+						alt="URL parts" style="width:300px;height:120px;">
+					</ol>
+				 <li> <b>Anchor element</b> is <br> <img src="Anchor.jpg" alt="Anchor"
+                                            style="width:300px;height:150px;">
+          <li><b>CSS</b> by CSS one will able to color the font and chage the layout
+              of the webpage.<mark><em>And CSS its different language from HTML.</em></mark>
+          <li> <b> CSS syntax <em> (ruleset)</em></b>
+                <ol>
+                  <li><b><em>SELECTOR</em></b></li>
+                  <li><b><em>DECLARATION BLOCK</em></b></li>
+                  <img src="RuleSet.jpg" alt="A rule set"   style="width:250px;height:200px;">
+                </ol>
+                <span>&#9888;</span> In CSS we call attribute <mark><b>property</b>
+                </mark> (be careful it is not attribue)<br>
+                <span>&#9888;</span> Also notice that there are differnces between
+                <b> RULESET </b> and <b> DECLARATION</b> the declaration is parts
+                of rule set. Where the ruleset of selector <b><em>.weird</em></b> contains
+                two declarations.
+          </li>
+          <li><b> CSS Selectors type </b> it is like.
+            <xmp style="color:blue;">
+              a {color: green ;}
+            </xmp>
+            where it helps to make wide chages through all HTML documents.
+          </li>
+          <li><b>Class</b> A group of things with the same characteristics.
+          </li>
+          <li>
+            <b>Selectors Class and Id</b> the id is unique where the class is a set
+            in the pictures below one can see how to identify both and select them.<br>
+            <img src="ClassSelector.jpg" alt="A class selector"style="width:250px;height:200px;">
+            <img src="IdSelector.jpg" alt="A ID selector"style="width:250px;height:200px;">
+          </li>
+			</ul>
+		<li><h3>Important link </h3>
+			<ul style="list-style-type:disc;">
+			<li>
+				<a href="https://classroom.udacity.com/nanodegrees/nd004-1mac-v2/parts/8dc44416-cce6-4bee-ad65-3bd35224e98d/modules/d56995b6-abd9-4d58-a930-02942a3b571f/lessons/ab0247a1-25b0-4964-a817-3f280dc3bb2f/concepts/5a63e538-225e-44e9-bf5e-f259b7e07c13"
+				target="_blank">
+				HTML Review Commands
+				</a>
+				You can see them in
+				<a href="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b33f629_ipnd-reference-sheet-html-elements-1/ipnd-reference-sheet-html-elements-1.pdf"
+				target="_blank">
+				Pdf
+				</a>
+			</li>
+			<li>
+				<a href="https://classroom.udacity.com/nanodegrees/nd004-1mac-v2/parts/8dc44416-cce6-4bee-ad65-3bd35224e98d/modules/d56995b6-abd9-4d58-a930-02942a3b571f/lessons/ab0247a1-25b0-4964-a817-3f280dc3bb2f/concepts/ec0fa08b-eb3c-491a-a695-4245c81d7659"
+				target="_blank">
+				Practice — Headings
+				</a>
+			</li>
+			<li>
+				<a href="https://classroom.udacity.com/nanodegrees/nd004-1mac-v2/parts/8dc44416-cce6-4bee-ad65-3bd35224e98d/modules/d56995b6-abd9-4d58-a930-02942a3b571f/lessons/ab0247a1-25b0-4964-a817-3f280dc3bb2f/concepts/3f1f205b-fd03-409f-80c8-1a23ef556867"
+				target="_blank">
+				Block elemmetnt and in line elements.
+				</a>
+				other
+				<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements"
+				target="_blank">
+				Block elemnts refrence
+				</a>
+				And
+				<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements"
+				target="_blank">
+				in line elements
+				</a>
+			</li>
+			<li>
+				<a href="https://classroom.udacity.com/nanodegrees/nd004-1mac-v2/parts/8dc44416-cce6-4bee-ad65-3bd35224e98d/modules/d56995b6-abd9-4d58-a930-02942a3b571f/lessons/ab0247a1-25b0-4964-a817-3f280dc3bb2f/concepts/a9e7ca61-987c-4fbd-82de-1a81c19cfdf4"
+				target="_blank">
+				HTML Review 2
+				</a>
+				You can find it also in Pdf form
+				<a href="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/July/5b4546ec_ipnd-reference-sheet-html-elements-2/ipnd-reference-sheet-html-elements-2.pdf"
+				target="_blank">
+				link
+				</a>
+			</li>
+      <li>
+        <a href="https://validator.w3.org/"
+         target="_blank">
+         Validation
+         </a>
+      </li>
+      <li>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+  			target="_blank">
+  			HTML elements reference
+  			</a>
+      </li>
+			</ul>
+		<li><h3>Caution </h3>
+			<ul>
+			     <li> elements like <b>em </b> ,<b> ol </b> and <b>ul</b> <em> should
+                have closing tag</em>.
+			     <li> elements like <b>p</b> or <b>li</b> <em>it is not necessary to
+                have closing tag</em>.
+			     <li> <b>br</b> does not require closing tag. becuse there is no content
+                for it.
+			     <li><b>img element</b> it inline elments with zero content. So it will
+				         space the line if its hight more than the hight of the text.
+           <li><b>HTML Documents</b> the required items for full HTML document
+               are a<b> DOCTYPE</b> tag and a <b>tittle</b> element
+           <li><b>Head Parts</b><br> We use head to create a container for metadata
+                about my page, such as the page's <b>title</b>.<br>
+             <img src="HeadParts.jpg"
+            alt="Head parts" style="width:300px;height:150px;">
+          <li><b>title element</b> the title is used only as part of head,
+              it would display the name of my page in browser tab.
+          <li> <b> important parts in HTML page structre</b>
+               <ul>
+                 <li> A head element.
+                 <li> The doctype. <mark> &#60;! DOCTYPE html	&#62;</mark>
+                 <li> A title element (which gives the name for the newtype.)
+                 <li> An html element (where in it you can put the language<mark>
+                      &#60;html lang="en"	&#62;</mark>)
+                 <li> A body element
+               </ul>
+          <li><b>Tree Structure </b>A tree structure or tree diagram is a way of
+             representing the hierarchical nature of a structure in a graphical
+              form.<a href="https://en.wikipedia.org/wiki/Tree_structure">wiki<a><br>
+              <img src="TreeStructure.jpg" alt="A Tree structuer" style="width:300px;height:150px;">
+
+          <li><b>DOM </b> Document Object Model.
+          <li><b>Style</b> There are two ways to apply style to HTML elements
+            <ol>
+              <li><b>Style attribute</b>(an inline style) where it applied directly to the HTML
+                element</li>
+              <li><b>Style element</b> (<b>Separate</b> <em>style</em> <b>element</b>) along with <em>ruleset</em></li>
+            </ol>
+            You may have noticed that the semicolon <mark>'<b>;</b>'</mark>  at the end is
+            optional—removing it does not seem to cause a problem. This is true
+            if you only have one style applied to the element. If you want to
+            add more styles, the semicolon must be used to separate them.
+            <xmp style="color:blue;">
+              <p style="text-align:center; color:blue;">This will be both centered and blue.</p>
+            </xmp>
+          <li><b>Quotes or no quotes</b>  <mark><em> quotes indicate where an attribute
+          starts and stops, even if there are space inside it.</em></mark> you can put
+          the attribute values without quote but we have no separate the <b>
+          white space. otherways it will consider as new attribute name.
+          </b> </li>
+			</ul>
+		</ol>
+	</body>
+</html>
